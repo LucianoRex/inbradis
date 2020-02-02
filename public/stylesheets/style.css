@@ -1,0 +1,25 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color:#054a74 !important;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.container .card{
+  background-color: transparent !important;
+  border: none !important;
+  
+}
+#form .card{
+  width: 100vw !important;
+  height: 100vh !important;
+  position:absolute !important;
+  top: 0;
+  left: 0;
+}
+tr:hover{
+  cursor: pointer;
+}

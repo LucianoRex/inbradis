@@ -1,0 +1,1 @@
+"use strict";var mongoose=require("mongoose"),config=require("./config").config;module.exports=function(){return mongoose.Promise=global.Promise,mongoose.connect(config.DB_URL.url,{useNewUrlParser:!0},function(){return console.log("Conectado ao banco de dados ".concat(config.DB_URL.url))})};
